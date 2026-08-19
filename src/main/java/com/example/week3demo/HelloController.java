@@ -10,8 +10,13 @@ import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class HelloController {
+
+
     @FXML
     private Label welcomeText;
     @FXML
@@ -69,6 +74,8 @@ Elementum nibh tellus molestie nunc non blandit massa.""");
         Stage stage = (Stage) nextButton.getScene().getWindow();
         stage.close();
     }
+
+
 
 
 }

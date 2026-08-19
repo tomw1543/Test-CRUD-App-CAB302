@@ -1,5 +1,6 @@
 package com.example.week3demo;
 
+import com.example.week3demo.Database.DBController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -8,6 +9,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class HelloApplication extends Application {
+
+
+
+
+
     // Constants defining the window title and size
     public static final String TITLE = "Address Book";
     public static final int WIDTH = 640;
@@ -23,6 +29,14 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
+
+
+
+
+
+
+
+
         launch();
     }
 }
