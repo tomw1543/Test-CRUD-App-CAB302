@@ -37,3 +37,12 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Database ###
+
+out/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.DS_Store
