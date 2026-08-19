@@ -31,7 +31,7 @@ public class DBController {
         try{
             Statement statment = connect.createStatement();
             statment.execute("INSERT INTO Users (FirstName, LastName, Email, PasswordHash, HomeLat, HomeLong, IsActive)\n" +
-                    "VALUES ('Billy', 'bo', 'billy.bob@example.com', 'a1bssfe2c3asdas35g6', -29.4698, 13.0251, 1);");
+                    "VALUES ('baily', 'bob', 'baily.bob@example.com', 'a1bssfe2c3asdas35g6', -29.4698, 13.0251, 1);");
         }catch (SQLException ex) {
             System.err.println(ex);
         }
